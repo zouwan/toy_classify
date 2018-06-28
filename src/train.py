@@ -1,7 +1,8 @@
 #-*- coding:utf8 -*-
 import logging
-import fasttext
+import fastText
 import sys
+sys.path.append("~/.local/lib/python2.7/site-packages/")
 from fastText import train_supervised
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)

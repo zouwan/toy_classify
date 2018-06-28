@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 #  code by zach. zouwan@gmail.com
 #  sample data process.
-#    1. 标签对应样本聚合
-#    2. 生成训练样本和测试样本 shuju
+#    1. 标签对应样本聚合(原有标签非常混乱，有好几万个，现在对标签做了一些整合， 放在 data/id_tags 里面)
+#    2. 生成训练样本和测试样本
 #    3. 原始数据: 汽车之家口碑数据， koubei_tag, koubei_tag_comment
 import sys
 import glob
